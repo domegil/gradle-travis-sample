@@ -1,7 +1,7 @@
 package io.turntabl;
 
 public class Numbers {
-    public static boolean isGreaterThanZeroAndLessThanAThousand(int i){
+    public static boolean      isGreaterThanZeroAndLessThanAThousand(int i){
         return greaterThanZero(i) && lessThanAThousand(i);
     }
 
